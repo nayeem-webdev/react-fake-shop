@@ -10,12 +10,18 @@ function App() {
     console.log(product, "added to cart");
     setCartItems([...cartItems, product]);
   };
+  const hDeleteCartItem = (product) => {
+    console.log("hello brother", product);
+  };
   return (
     <>
       <Navbar></Navbar>
       <div className="container mx-auto flex px-5 gap-5">
         <AllProducts HAddToCart={HAddToCart}></AllProducts>
-        <SideBar cartItems={cartItems}></SideBar>
+        <SideBar
+          cartItems={cartItems}
+          hDeleteCartItem={hDeleteCartItem}
+        ></SideBar>
       </div>
     </>
   );
