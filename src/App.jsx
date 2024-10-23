@@ -6,13 +6,22 @@ import SideBar from "./Components/SideBar";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
+
   const HAddToCart = (product) => {
-    console.log(product, "added to cart");
-    setCartItems([...cartItems, product]);
+    console.log("consoleClick", product);
+    // setCartItems([...cartItems, product]);
+    setCartItems((pre) => [...pre, product]);
   };
+
   const hDeleteCartItem = (product) => {
     console.log("hello brother", product);
+    const newArray = cartItems.filter((item) => item.id !== product.id);
+    console.log(newArray);
+    // console.log(product);
+    setCartItems(newArray);
   };
+
+  console.log(cartItems);
   return (
     <>
       <Navbar></Navbar>

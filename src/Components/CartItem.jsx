@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 const CartItem = ({ cartItem, hDeleteCartItem }) => {
+  console.log({cartItem})
   return (
     <div>
       <div className="flex items-center justify-between border-b py-4">

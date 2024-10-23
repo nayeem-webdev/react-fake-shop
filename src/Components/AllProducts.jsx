@@ -20,7 +20,7 @@ const AllProducts = ({ HAddToCart }) => {
   }, []);
 
   return (
-    <div className="w-2/3 border-2 border-green-500">
+    <div className="w-2/3">
       <h1 className="text-center font-bold text-2xl py-10">
         ---- All Products ----
       </h1>

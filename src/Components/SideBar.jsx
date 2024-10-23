@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 
 const SideBar = ({ cartItems, hDeleteCartItem }) => {
   return (
-    <div className="w-1/3 border-2 border-red-500">
+    <div className="w-1/3 bg-gray-100">
       <h1 className="text-center font-bold text-2xl py-10">
-        SIDE BAR NOT MODER BAR
+        SIDE BAR
       </h1>
       <div>
-        <Cart cartItems={cartItems} hDeleteCartItem={hDeleteCartItem} ></Cart>
+        <Cart cartItems={cartItems} hDeleteCartItem={hDeleteCartItem}></Cart>
       </div>
     </div>
   );
