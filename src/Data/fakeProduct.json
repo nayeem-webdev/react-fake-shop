@@ -1,0 +1,302 @@
+[
+  {
+    "SKU": "SKU001",
+    "productName": "Wireless Mouse",
+    "price": 25.99,
+    "isFeatured": true,
+    "category": "Electronics",
+    "id": 1,
+    "productImage": "https://images.pexels.com/photos/3730764/pexels-photo-3730764.jpeg",
+    "description": "A sleek wireless mouse with ergonomic design."
+  },
+  {
+    "SKU": "SKU002",
+    "productName": "Bluetooth Headphones",
+    "price": 59.99,
+    "isFeatured": false,
+    "category": "Electronics",
+    "id": 2,
+    "productImage": "https://images.pexels.com/photos/3859287/pexels-photo-3859287.jpeg",
+    "description": "Noise-cancelling Bluetooth headphones with great sound quality."
+  },
+  {
+    "SKU": "SKU003",
+    "productName": "Smart Watch",
+    "price": 199.99,
+    "isFeatured": true,
+    "category": "Wearables",
+    "id": 3,
+    "productImage": "https://images.pexels.com/photos/2106161/pexels-photo-2106161.jpeg",
+    "description": "Track your fitness and stay connected with this smart watch."
+  },
+  {
+    "SKU": "SKU004",
+    "productName": "Laptop Stand",
+    "price": 39.99,
+    "isFeatured": false,
+    "category": "Accessories",
+    "id": 4,
+    "productImage": "https://images.pexels.com/photos/3786166/pexels-photo-3786166.jpeg",
+    "description": "Adjustable laptop stand for better ergonomics."
+  },
+  {
+    "SKU": "SKU005",
+    "productName": "4K Monitor",
+    "price": 299.99,
+    "isFeatured": true,
+    "category": "Electronics",
+    "id": 5,
+    "productImage": "https://images.pexels.com/photos/4500343/pexels-photo-4500343.jpeg",
+    "description": "Ultra HD monitor for crystal-clear visuals."
+  },
+  {
+    "SKU": "SKU006",
+    "productName": "Gaming Keyboard",
+    "price": 89.99,
+    "isFeatured": false,
+    "category": "Gaming",
+    "id": 6,
+    "productImage": "https://images.pexels.com/photos/3768594/pexels-photo-3768594.jpeg",
+    "description": "Mechanical keyboard with customizable RGB lighting."
+  },
+  {
+    "SKU": "SKU007",
+    "productName": "Portable Charger",
+    "price": 24.99,
+    "isFeatured": true,
+    "category": "Accessories",
+    "id": 7,
+    "productImage": "https://images.pexels.com/photos/4111823/pexels-photo-4111823.jpeg",
+    "description": "High-capacity portable charger for on-the-go charging."
+  },
+  {
+    "SKU": "SKU008",
+    "productName": "USB-C Hub",
+    "price": 49.99,
+    "isFeatured": false,
+    "category": "Accessories",
+    "id": 8,
+    "productImage": "https://images.pexels.com/photos/3683004/pexels-photo-3683004.jpeg",
+    "description": "Multi-port USB-C hub for connecting multiple devices."
+  },
+  {
+    "SKU": "SKU009",
+    "productName": "Fitness Tracker",
+    "price": 39.99,
+    "isFeatured": true,
+    "category": "Wearables",
+    "id": 9,
+    "productImage": "https://images.pexels.com/photos/1608314/pexels-photo-1608314.jpeg",
+    "description": "Monitor your activity and sleep patterns with this tracker."
+  },
+  {
+    "SKU": "SKU010",
+    "productName": "Wireless Charger",
+    "price": 19.99,
+    "isFeatured": false,
+    "category": "Accessories",
+    "id": 10,
+    "productImage": "https://images.pexels.com/photos/5983033/pexels-photo-5983033.jpeg",
+    "description": "Fast wireless charger compatible with most devices."
+  },
+  {
+    "SKU": "SKU011",
+    "productName": "Bluetooth Speaker",
+    "price": 45.99,
+    "isFeatured": true,
+    "category": "Audio",
+    "id": 11,
+    "productImage": "https://images.pexels.com/photos/1542051/pexels-photo-1542051.jpeg",
+    "description": "Portable Bluetooth speaker with impressive sound quality."
+  },
+  {
+    "SKU": "SKU012",
+    "productName": "VR Headset",
+    "price": 299.99,
+    "isFeatured": false,
+    "category": "Gaming",
+    "id": 12,
+    "productImage": "https://images.pexels.com/photos/3758749/pexels-photo-3758749.jpeg",
+    "description": "Experience virtual reality like never before with this headset."
+  },
+  {
+    "SKU": "SKU013",
+    "productName": "Smart Light Bulb",
+    "price": 19.99,
+    "isFeatured": true,
+    "category": "Home Automation",
+    "id": 13,
+    "productImage": "https://images.pexels.com/photos/4050386/pexels-photo-4050386.jpeg",
+    "description": "Control your lighting with your smartphone."
+  },
+  {
+    "SKU": "SKU014",
+    "productName": "Digital Camera",
+    "price": 499.99,
+    "isFeatured": false,
+    "category": "Photography",
+    "id": 14,
+    "productImage": "https://images.pexels.com/photos/2551928/pexels-photo-2551928.jpeg",
+    "description": "Capture stunning photos with this high-quality digital camera."
+  },
+  {
+    "SKU": "SKU015",
+    "productName": "Action Camera",
+    "price": 249.99,
+    "isFeatured": true,
+    "category": "Photography",
+    "id": 15,
+    "productImage": "https://images.pexels.com/photos/2646166/pexels-photo-2646166.jpeg",
+    "description": "Perfect for capturing your adventures in HD."
+  },
+  {
+    "SKU": "SKU016",
+    "productName": "External Hard Drive",
+    "price": 79.99,
+    "isFeatured": false,
+    "category": "Storage",
+    "id": 16,
+    "productImage": "https://images.pexels.com/photos/1589206/pexels-photo-1589206.jpeg",
+    "description": "Store your important files safely with this external drive."
+  },
+  {
+    "SKU": "SKU017",
+    "productName": "Smart Thermostat",
+    "price": 129.99,
+    "isFeatured": true,
+    "category": "Home Automation",
+    "id": 17,
+    "productImage": "https://images.pexels.com/photos/4568766/pexels-photo-4568766.jpeg",
+    "description": "Control your home's temperature from anywhere."
+  },
+  {
+    "SKU": "SKU018",
+    "productName": "E-reader",
+    "price": 89.99,
+    "isFeatured": false,
+    "category": "Books",
+    "id": 18,
+    "productImage": "https://images.pexels.com/photos/1686910/pexels-photo-1686910.jpeg",
+    "description": "Read your favorite books in a convenient format."
+  },
+  {
+    "SKU": "SKU019",
+    "productName": "Webcam",
+    "price": 69.99,
+    "isFeatured": true,
+    "category": "Electronics",
+    "id": 19,
+    "productImage": "https://images.pexels.com/photos/4030123/pexels-photo-4030123.jpeg",
+    "description": "High-quality webcam for video calls and streaming."
+  },
+  {
+    "SKU": "SKU020",
+    "productName": "Fitness Mat",
+    "price": 29.99,
+    "isFeatured": false,
+    "category": "Fitness",
+    "id": 20,
+    "productImage": "https://images.pexels.com/photos/4163140/pexels-photo-4163140.jpeg",
+    "description": "Durable mat for your yoga and fitness workouts."
+  },
+  {
+    "SKU": "SKU021",
+    "productName": "Electric Kettle",
+    "price": 39.99,
+    "isFeatured": true,
+    "category": "Home Appliances",
+    "id": 21,
+    "productImage": "https://images.pexels.com/photos/4149058/pexels-photo-4149058.jpeg",
+    "description": "Quickly boil water with this stylish electric kettle."
+  },
+  {
+    "SKU": "SKU022",
+    "productName": "Air Purifier",
+    "price": 199.99,
+    "isFeatured": false,
+    "category": "Home Appliances",
+    "id": 22,
+    "productImage": "https://images.pexels.com/photos/4053776/pexels-photo-4053776.jpeg",
+    "description": "Breathe clean air with this efficient air purifier."
+  },
+  {
+    "SKU": "SKU023",
+    "productName": "Blender",
+    "price": 49.99,
+    "isFeatured": true,
+    "category": "Kitchen",
+    "id": 23,
+    "productImage": "https://images.pexels.com/photos/1587359/pexels-photo-1587359.jpeg",
+    "description": "Make smoothies and sauces with this powerful blender."
+  },
+  {
+    "SKU": "SKU024",
+    "productName": "Smart Lock",
+    "price": 129.99,
+    "isFeatured": false,
+    "category": "Home Security",
+    "id": 24,
+    "productImage": "https://images.pexels.com/photos/4038774/pexels-photo-4038774.jpeg",
+    "description": "Secure your home with this smart lock."
+  },
+  {
+    "SKU": "SKU025",
+    "productName": "Gaming Chair",
+    "price": 199.99,
+    "isFeatured": true,
+    "category": "Gaming",
+    "id": 25,
+    "productImage": "https://images.pexels.com/photos/3737580/pexels-photo-3737580.jpeg",
+    "description": "Comfortable gaming chair for long hours of play."
+  },
+  {
+    "SKU": "SKU026",
+    "productName": "Home Theater System",
+    "price": 499.99,
+    "isFeatured": false,
+    "category": "Audio",
+    "id": 26,
+    "productImage": "https://images.pexels.com/photos/2267066/pexels-photo-2267066.jpeg",
+    "description": "Enjoy cinematic sound quality at home."
+  },
+  {
+    "SKU": "SKU027",
+    "productName": "Smart Speaker",
+    "price": 99.99,
+    "isFeatured": true,
+    "category": "Audio",
+    "id": 27,
+    "productImage": "https://images.pexels.com/photos/3773520/pexels-photo-3773520.jpeg",
+    "description": "Voice-controlled speaker for music and smart home control."
+  },
+  {
+    "SKU": "SKU028",
+    "productName": "Wireless Gaming Mouse",
+    "price": 69.99,
+    "isFeatured": false,
+    "category": "Gaming",
+    "id": 28,
+    "productImage": "https://images.pexels.com/photos/4136863/pexels-photo-4136863.jpeg",
+    "description": "Precise wireless gaming mouse for gamers."
+  },
+  {
+    "SKU": "SKU029",
+    "productName": "Smart Refrigerator",
+    "price": 799.99,
+    "isFeatured": true,
+    "category": "Home Appliances",
+    "id": 29,
+    "productImage": "https://images.pexels.com/photos/4173156/pexels-photo-4173156.jpeg",
+    "description": "Keep your food fresh and organized with this smart fridge."
+  },
+  {
+    "SKU": "SKU030",
+    "productName": "Cordless Vacuum Cleaner",
+    "price": 199.99,
+    "isFeatured": false,
+    "category": "Home Appliances",
+    "id": 30,
+    "productImage": "https://images.pexels.com/photos/1542051/pexels-photo-1542051.jpeg",
+    "description": "Lightweight cordless vacuum cleaner for easy cleaning."
+  }
+]
