@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 const CartItem = ({ cartItem, hDeleteCartItem }) => {
-  console.log({cartItem})
   return (
     <div>
       <div className="flex items-center justify-between border-b py-4">
@@ -18,10 +17,11 @@ const CartItem = ({ cartItem, hDeleteCartItem }) => {
         <div className="flex items-center">
           <p className="text-lg font-bold text-green-600">৳ {cartItem.price}</p>
           <button
+            title="Delete Item"
             onClick={() => hDeleteCartItem(cartItem)}
-            className="ml-4 bg-red-500 text-white p-1 rounded hover:bg-red-700"
+            className="ml-4 bg-red-500 text-white py-1 px-2 rounded hover:bg-red-700"
           >
-            <i className="fa-regular fa-trash-can"></i>
+            <i className="fa-solid fa-square-minus"></i>
           </button>
         </div>
       </div>

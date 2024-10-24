@@ -9,7 +9,7 @@ const AllProducts = ({ HAddToCart }) => {
   useEffect(() => {
     const loadProducts = async () => {
       try {
-        const res = await fetch("/src/Data/fakeProduct.json");
+        const res = await fetch("/Data/fakeProduct.json");
         const data = await res.json();
         setProducts(data);
       } catch (error) {

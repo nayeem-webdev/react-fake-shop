@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 const Cart = ({ cartItems, hDeleteCartItem }) => {
   return (
     <div>
-      {cartItems.map((cartItem) => (
+      {cartItems.map((cartItem, i) => (
         <CartItem
-          key={cartItem.SKU + Date.now()}
+          key={cartItem.SKU + i}
           cartItem={cartItem}
           hDeleteCartItem={hDeleteCartItem}
         ></CartItem>

@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 const Product = ({ product, HAddToCart }) => {
-  // console.log(product);
   const {
     SKU,
     productName,

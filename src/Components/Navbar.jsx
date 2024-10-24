@@ -1,6 +1,7 @@
 import profileIcon from "../assets/profileIcon.png";
+import PropTypes from "prop-types";
 
-const Navbar = () => {
+const Navbar = ({ cartItems, SearchProductByInput }) => {
   return (
     <div>
       <nav className="bg-flipkartBlue p-4">
@@ -28,6 +29,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search"
+              onKeyUp={(e) => SearchProductByInput(e.target.value)}
               className="px-2 py-1 outline-none bg-transparent text-white placeholder-white"
             />
             <i className="fas fa-search text-flipkartYellow"></i>
@@ -37,12 +39,15 @@ const Navbar = () => {
             <div className="text-white flex items-center">
               <div className="relative mr-3">
                 <i className="fas fa-shopping-cart text-2xl"></i>
-                <span className="absolute -top-2 -right-3 bg-flipkartYellow rounded-full text-black text-xs p-[2px] flex items-center justify-center">
-                  30
+                <span className="absolute -top-2 -right-3 bg-flipkartYellow rounded-full h-5 min-w-5 text-black text-xs p-[2px] flex items-center justify-center">
+                  {cartItems.length}
                 </span>
               </div>
-              <span className="ml-2 text-sm">
-                <span className="text-md font-extrabold">৳</span> 1,499.00
+              <span className="ml-2 text-sm font-bold">
+                <span className="text-md font-extrabold">৳ </span>
+                {cartItems
+                  .reduce((init, { price }) => init + price, 0)
+                  .toFixed(2)}
               </span>
             </div>
 
@@ -60,4 +65,8 @@ const Navbar = () => {
   );
 };
 
+Navbar.propTypes = {
+  cartItems: PropTypes.array.isRequired,
+  SearchProductByInput: PropTypes.func,
+};
 export default Navbar;
